@@ -1,11 +1,11 @@
 // Null
 let nullExample: null = null; // Solo puede tomar valor "null"
-let numberExample: number = null; // Pero el valor "null" podemos asignarlo 
+let numberExample: number = 2; // Pero el valor "null" podemos asignarlo 
                                 // a cualquier variable
  
 // Undefined
 let undefinedExample: undefined = undefined; // Solo puede tomar valor "undefined"
-let stringExample: string = undefined // Pero el valor "undefined" podemos asignarlo 
+let stringExample: string = "Hola" // Pero el valor "undefined" podemos asignarlo 
                                      // a cualquier variable
 
 //proba cambiando las opciones del tsconfig.json
@@ -50,6 +50,6 @@ anyValue.metodo(); // Todo OK, compila. Falla en tiempo de ejecución si el mét
 let iDontKnow: unknown = "typescript";
 
 //ejercicio
-let nowIKnow: string = iDontKnow; //utiliza el casteo explicito para asignarle a nowIKnow un string;
+let nowIKnow: string = iDontKnow as string; //utiliza el casteo explicito para asignarle a nowIKnow un string;
 
 export {}
