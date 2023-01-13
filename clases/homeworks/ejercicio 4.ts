@@ -4,7 +4,7 @@ let mati = {
     edad: 29
 }
 
-//tipado explicito?
+//tipado explicito? si
 
 interface Persona {
     nombre: string;
@@ -23,7 +23,7 @@ interface Estudiante extends Persona {
 let diego: Estudiante = {
     nombre: "Diego",
     edad: 29,
-    esActivo: false //que pasa si comento alguno?
+    esActivo: false //que pasa si comento alguno? Entra en conflicto porque los 3 tienen propiedad valor obligatorio
 }
 
 // Investiga la palabra reservada implements

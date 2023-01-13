@@ -13,4 +13,8 @@ let person: [string, number] = ["Franco", 26];
 
 //crea un arreglo de strings
 
+let tupla: [boolean, string];
+
+let arr: string[];
+
 export {}

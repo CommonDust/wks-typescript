@@ -14,7 +14,7 @@ let stringExample: string = "Hola" // Pero el valor "undefined" podemos asignarl
 //Visual studio code siempre va a tomar el tsconfig de la carpeta donde tengas abierto
 //tu proyecto, entonces, tal vez no veas los cambios
 
-function noImplicitType(firstArg, secondArg) {
+function noImplicitType(firstArg: any, secondArg: any) {
     console.log("First Argument: ", firstArg);
     console.log("Second Argument: ", secondArg);
   }
